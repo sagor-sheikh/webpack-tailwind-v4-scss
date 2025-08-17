@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Tailwind theme customization (v4 uses @theme in CSS) */
+@theme {
+  --font-sans: "Inter", sans-serif;
+}
+
+/* Custom styles with Tailwind utilities */
+
+
+h1 {
+  @apply text-3xl font-bold text-blue-600;
+}
